@@ -1,8 +1,10 @@
 # OBS Garmin Voice Replay
 
-A native OBS Studio plugin that saves your replay buffer using voice commands. Just say the trigger phrase and your replay is saved!
+"okay garmin, make a shitty plugin that saves replay buffer when you say "garmin save video" in either german, french or english"
 
 its also all vibecoded slop but this is small so it should be okay!
+
+installer will always be in the releases tab on the right
 
 ## Features
 
@@ -22,34 +24,10 @@ its also all vibecoded slop but this is small so it should be okay!
 
 ## Installation
 
-### Option 1: Installer (Recommended)
-
 Download the latest installer from [Releases](../../releases) and run it. The installer will:
 - Detect your OBS installation
 - Install the plugin and required DLLs
 - Let you choose which language models to install
-
-### Option 2: Manual Installation
-
-1. Download the release zip
-2. Extract to your OBS installation folder (e.g., `C:\Program Files\obs-studio`)
-3. The folder structure should be:
-   ```
-   obs-studio/
-   ├── obs-plugins/64bit/
-   │   ├── obs-garmin-replay.dll
-   │   ├── libvosk.dll
-   │   ├── libgcc_s_seh-1.dll
-   │   ├── libstdc++-6.dll
-   │   └── libwinpthread-1.dll
-   └── data/obs-plugins/obs-garmin-replay/
-       ├── locale/
-       │   ├── en-US.ini
-       │   ├── de-DE.ini
-       │   └── fr-FR.ini
-       └── models/
-           └── vosk-model-small-en-us-0.15/
-   ```
 
 ## Usage
 
@@ -190,7 +168,7 @@ Settings are stored in: `%APPDATA%\obs-studio\plugin_config\obs-garmin-replay\ga
 
 ## Support
 
-**There is no support for this plugin.** It works on my machine. If it doesn't work on yours, that's unfortunate.
+**There is no support for this plugin.** It works on my machine. If it doesn't work on yours, that's unfortunate, unless you have me on Discord, in which case you get priority support.
 
 Feature requests will be ignored unless they are really funny.
 
