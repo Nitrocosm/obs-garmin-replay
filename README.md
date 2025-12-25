@@ -2,6 +2,8 @@
 
 A native OBS Studio plugin that saves your replay buffer using voice commands. Just say the trigger phrase and your replay is saved!
 
+its also all vibecoded slop but this is small so it should be okay!
+
 ## Features
 
 - **Voice-activated replay saving** - No hotkeys needed
